@@ -1,0 +1,151 @@
+@media only screen and (max-width: 550px){
+    .heading{
+        font-size: 36px;
+    }
+    .advantages{
+        height: 90vh;
+    }
+    .advantage{
+        width: 80vw;
+        margin-left: 20px;
+    }
+    .features.flex{
+        flex-direction: column;
+        width: 90vw;
+    }
+    .feature-item-img{
+        width: 16vw;
+    }
+    .feature-item-img>img{
+        width: 56px;
+    }
+    .feature{
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 281px){
+    .feature{
+        width: 80vw;
+        height: 45vh;
+        margin:40px 20px;
+    }
+    .features{
+        padding: 4vh 0px;
+    }
+    .advantages{
+        margin-bottom: 20px;
+    }
+    .advantage{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .section-heading{
+        font-size: 28px;
+    }
+    .feature-heading{
+        width: 80vw;
+        margin-top: 10px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .image-section{
+        width: 80vw;
+    }
+    
+    .hero-image{
+        width: 80vw;
+    }
+    .saas{
+        width: 80vw;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .flex{
+        flex-direction: column;
+    }
+    .flex-gap{
+        gap: 2vw;
+    }
+    .pt-6{
+        padding-top: 3vh;
+    }
+    header.flex, .list.flex, nav.flex{
+        flex-direction: row;
+    }
+    .hero-container{
+        height: auto;
+    }
+    .hero-container.flex{
+        align-items: center;
+    }
+    .text-section{
+        width: 70vw;
+    }
+    .heading{
+        font-size: 46px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .image-section{
+        width: 60vw;
+    }
+    
+    .hero-image{
+        width: 60vw;
+        margin-top: 20px;
+    }
+    .saas{
+        width: 60vw;
+    }
+    .section-heading{
+        text-align: center;
+    }
+    .advantage.flex{
+        flex-direction: row;
+    }
+    .advantage{
+        width: 55vw;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+    .icon-container>img{
+        width: 30px;
+    }
+    .features.flex{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90vw;
+    }
+    .feature-heading{
+        width: 60vw;
+        margin-top: 40px;
+    }
+    .feature{
+        width: 40vw;
+        margin: 30px 0px;
+    }
+    .feature-item-img{
+        width: 12vw;
+    }
+    .feature-item-img>img{
+        width: 50px;
+    }
+    .feature-text{
+        padding: 0px 16px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .list.flex, .button-group.flex{
+        display: none;
+    }
+    header.flex{
+        justify-content: space-around;
+    }
+    .logo-container>img{
+        margin-left: 30px;
+    }
+}
